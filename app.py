@@ -86,9 +86,9 @@ def main():
  
        
          
-    pred = get_prediction(data=data, model=cb_model)
+        pred = get_prediction(data=data, model=cb_model)
 
-    st.write(f"The predicted Site Energy Intensity is:  {pred}")
+        st.write(f"The predicted Site Energy Intensity is:  {pred}")
 
 
 if __name__ == '__main__':
